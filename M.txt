@@ -1,0 +1,14 @@
+class M{
+int x=10;
+static int y=20;
+public static void main(String[] args){
+ 
+int a=10;
+int b=20;
+int c=a+b;
+M m= new M();
+
+System.out.println("Non static:"+m.x);
+System.out.println("Static:"+y);
+}
+} 
